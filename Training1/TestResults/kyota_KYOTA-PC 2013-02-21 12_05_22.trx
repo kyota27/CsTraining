@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="64f394da-422d-471c-a891-8c2e7c82d6b7" name="kyota@KYOTA-PC 2013-02-21 12:05:22" runUser="kyota-PC\kyota" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="ローカル" id="07efbd95-af83-4854-867a-eb867ffe706f">
+    <Description>これらはローカル テスト実行用の既定のテスト設定です。</Description>
+    <Deployment userDeploymentRoot="D:\Spikes\Training\Training1\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="kyota_KYOTA-PC 2013-02-21 12_05_22">
+      <DeploymentItem filename="D:\Spikes\Training\Training1\Training1\bin\Release\Training1.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="コード カバレッジ">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-21T12:05:22.4256993+09:00" queuing="2013-02-21T12:05:22.9579280+09:00" start="2013-02-21T12:05:23.0359282+09:00" finish="2013-02-21T12:05:24.1435301+09:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsNumericTest" storage="d:\spikes\training\training1\training1tests\bin\release\training1tests.dll" id="6bdf15ce-d883-4198-2f58-91b0666aa2a1">
+      <DeploymentItems>
+        <DeploymentItem filename="Training1.exe" />
+      </DeploymentItems>
+      <Execution id="1b8fc44b-6fb2-43d5-82fc-dd961842c066" />
+      <TestMethod codeBase="D:/Spikes/Training/Training1/Training1Tests/bin/Release/Training1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Training1Tests.Form1Test, Training1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNumericTest" />
+    </UnitTest>
+    <UnitTest name="GetAllOperatorsTest" storage="d:\spikes\training\training1\training1tests\bin\release\training1tests.dll" id="e9b044af-67de-bd9e-efff-b1ba523a9300">
+      <Execution id="6d906db6-300d-4124-ba22-99a931936df9" />
+      <TestMethod codeBase="D:/Spikes/Training/Training1/Training1Tests/bin/Release/Training1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Training1Tests.OperatorHelperTest, Training1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllOperatorsTest" />
+    </UnitTest>
+    <UnitTest name="InitializeFormTest" storage="d:\spikes\training\training1\training1tests\bin\release\training1tests.dll" id="9ce93b0d-d803-f84d-24b8-30b9f851cd27">
+      <DeploymentItems>
+        <DeploymentItem filename="Training1.exe" />
+      </DeploymentItems>
+      <Execution id="783367f8-a728-4988-8b35-b0a1afd70f4c" />
+      <TestMethod codeBase="D:/Spikes/Training/Training1/Training1Tests/bin/Release/Training1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Training1Tests.Form1Test, Training1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeFormTest" />
+    </UnitTest>
+    <UnitTest name="CalcurationTest" storage="d:\spikes\training\training1\training1tests\bin\release\training1tests.dll" id="581c5356-29ed-b7d4-ef75-c8bb9147f637">
+      <Execution id="a6b4ab2f-090c-49c2-aa10-1215658f55d5" />
+      <TestMethod codeBase="D:/Spikes/Training/Training1/Training1Tests/bin/Release/Training1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Training1Tests.OperatorHelperTest, Training1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalcurationTest" />
+    </UnitTest>
+    <UnitTest name="ToSignTest" storage="d:\spikes\training\training1\training1tests\bin\release\training1tests.dll" id="61229d65-f4f0-6f47-87f0-cdf79873e45f">
+      <Execution id="3b6d6f43-2264-41cd-8182-10553f867c46" />
+      <TestMethod codeBase="D:/Spikes/Training/Training1/Training1Tests/bin/Release/Training1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Training1Tests.OperatorExtensionTest, Training1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToSignTest" />
+    </UnitTest>
+    <UnitTest name="CalcTest" storage="d:\spikes\training\training1\training1tests\bin\release\training1tests.dll" id="69f67da5-0371-4616-a584-4a94ff72a0fa">
+      <DeploymentItems>
+        <DeploymentItem filename="Training1.exe" />
+      </DeploymentItems>
+      <Execution id="82618085-3df8-4ec5-8b6b-2633bf1d8d63" />
+      <TestMethod codeBase="D:/Spikes/Training/Training1/Training1Tests/bin/Release/Training1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Training1Tests.Form1Test, Training1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalcTest" />
+    </UnitTest>
+    <UnitTest name="SignToOperatorsTest" storage="d:\spikes\training\training1\training1tests\bin\release\training1tests.dll" id="8c41f88d-c195-a1e2-0eff-4ef1f1c2fe14">
+      <Execution id="86b16712-e679-44ed-95c4-c844a9aaf39d" />
+      <TestMethod codeBase="D:/Spikes/Training/Training1/Training1Tests/bin/Release/Training1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Training1Tests.OperatorHelperTest, Training1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SignToOperatorsTest" />
+    </UnitTest>
+    <UnitTest name="ToIntTest" storage="d:\spikes\training\training1\training1tests\bin\release\training1tests.dll" id="dadc2ea9-4bfe-b3ab-36a0-89576fd1b415">
+      <Execution id="c2b9d01a-6eb7-415a-a3ee-951128d2582e" />
+      <TestMethod codeBase="D:/Spikes/Training/Training1/Training1Tests/bin/Release/Training1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Training1Tests.TextBoxExtensionsTest, Training1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToIntTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="一覧に存在しない結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="読み込まれたすべての結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="581c5356-29ed-b7d4-ef75-c8bb9147f637" executionId="a6b4ab2f-090c-49c2-aa10-1215658f55d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61229d65-f4f0-6f47-87f0-cdf79873e45f" executionId="3b6d6f43-2264-41cd-8182-10553f867c46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69f67da5-0371-4616-a584-4a94ff72a0fa" executionId="82618085-3df8-4ec5-8b6b-2633bf1d8d63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bdf15ce-d883-4198-2f58-91b0666aa2a1" executionId="1b8fc44b-6fb2-43d5-82fc-dd961842c066" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c41f88d-c195-a1e2-0eff-4ef1f1c2fe14" executionId="86b16712-e679-44ed-95c4-c844a9aaf39d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ce93b0d-d803-f84d-24b8-30b9f851cd27" executionId="783367f8-a728-4988-8b35-b0a1afd70f4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dadc2ea9-4bfe-b3ab-36a0-89576fd1b415" executionId="c2b9d01a-6eb7-415a-a3ee-951128d2582e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9b044af-67de-bd9e-efff-b1ba523a9300" executionId="6d906db6-300d-4124-ba22-99a931936df9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a6b4ab2f-090c-49c2-aa10-1215658f55d5" testId="581c5356-29ed-b7d4-ef75-c8bb9147f637" testName="CalcurationTest" computerName="KYOTA-PC" duration="00:00:00.0376122" startTime="2013-02-21T12:05:23.6131292+09:00" endTime="2013-02-21T12:05:23.9251297+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6b4ab2f-090c-49c2-aa10-1215658f55d5">
+    </UnitTestResult>
+    <UnitTestResult executionId="3b6d6f43-2264-41cd-8182-10553f867c46" testId="61229d65-f4f0-6f47-87f0-cdf79873e45f" testName="ToSignTest" computerName="KYOTA-PC" duration="00:00:00.0008884" startTime="2013-02-21T12:05:23.9251297+09:00" endTime="2013-02-21T12:05:23.9407298+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b6d6f43-2264-41cd-8182-10553f867c46">
+    </UnitTestResult>
+    <UnitTestResult executionId="82618085-3df8-4ec5-8b6b-2633bf1d8d63" testId="69f67da5-0371-4616-a584-4a94ff72a0fa" testName="CalcTest" computerName="KYOTA-PC" duration="00:00:00.0512849" startTime="2013-02-21T12:05:23.9407298+09:00" endTime="2013-02-21T12:05:24.0031299+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82618085-3df8-4ec5-8b6b-2633bf1d8d63">
+    </UnitTestResult>
+    <UnitTestResult executionId="1b8fc44b-6fb2-43d5-82fc-dd961842c066" testId="6bdf15ce-d883-4198-2f58-91b0666aa2a1" testName="IsNumericTest" computerName="KYOTA-PC" duration="00:00:00.0041789" startTime="2013-02-21T12:05:24.0031299+09:00" endTime="2013-02-21T12:05:24.0031299+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b8fc44b-6fb2-43d5-82fc-dd961842c066">
+    </UnitTestResult>
+    <UnitTestResult executionId="86b16712-e679-44ed-95c4-c844a9aaf39d" testId="8c41f88d-c195-a1e2-0eff-4ef1f1c2fe14" testName="SignToOperatorsTest" computerName="KYOTA-PC" duration="00:00:00.0014077" startTime="2013-02-21T12:05:24.0187299+09:00" endTime="2013-02-21T12:05:24.0187299+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86b16712-e679-44ed-95c4-c844a9aaf39d">
+    </UnitTestResult>
+    <UnitTestResult executionId="783367f8-a728-4988-8b35-b0a1afd70f4c" testId="9ce93b0d-d803-f84d-24b8-30b9f851cd27" testName="InitializeFormTest" computerName="KYOTA-PC" duration="00:00:00.0021986" startTime="2013-02-21T12:05:24.0187299+09:00" endTime="2013-02-21T12:05:24.0343299+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="783367f8-a728-4988-8b35-b0a1afd70f4c">
+    </UnitTestResult>
+    <UnitTestResult executionId="c2b9d01a-6eb7-415a-a3ee-951128d2582e" testId="dadc2ea9-4bfe-b3ab-36a0-89576fd1b415" testName="ToIntTest" computerName="KYOTA-PC" duration="00:00:00.0102664" startTime="2013-02-21T12:05:24.0343299+09:00" endTime="2013-02-21T12:05:24.0499300+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2b9d01a-6eb7-415a-a3ee-951128d2582e">
+    </UnitTestResult>
+    <UnitTestResult executionId="6d906db6-300d-4124-ba22-99a931936df9" testId="e9b044af-67de-bd9e-efff-b1ba523a9300" testName="GetAllOperatorsTest" computerName="KYOTA-PC" duration="00:00:00.0002902" startTime="2013-02-21T12:05:24.0499300+09:00" endTime="2013-02-21T12:05:24.0655300+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d906db6-300d-4124-ba22-99a931936df9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

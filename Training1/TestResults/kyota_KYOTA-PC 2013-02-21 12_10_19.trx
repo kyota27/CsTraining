@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a0b6584f-75d7-4425-b871-e9a5f8ecb1c8" name="kyota@KYOTA-PC 2013-02-21 12:10:19" runUser="kyota-PC\kyota" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="ローカル" id="07efbd95-af83-4854-867a-eb867ffe706f">
+    <Description>これらはローカル テスト実行用の既定のテスト設定です。</Description>
+    <Deployment runDeploymentRoot="kyota_KYOTA-PC 2013-02-21 12_10_19">
+      <DeploymentItem filename="D:\Spikes\Training\Training1\Training1\bin\Debug\Training1.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="コード カバレッジ">
+            <Configuration>
+              <CodeCoverage xmlns="">
+                <Regular>
+                  <CodeCoverageItem binaryFile="D:\Spikes\Training\Training1\Training1\bin\Debug\Training1.exe" pdbFile="D:\Spikes\Training\Training1\Training1\bin\Debug\Training1.instr.pdb" instrumentInPlace="true" />
+                </Regular>
+              </CodeCoverage>
+            </Configuration>
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-21T12:10:19.0563929+09:00" queuing="2013-02-21T12:10:20.5534785+09:00" start="2013-02-21T12:10:20.6244825+09:00" finish="2013-02-21T12:10:23.8831773+09:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="KYOTA-PC" outcome="Warning" timestamp="2013-02-21T12:10:19.1703994+09:00">
+        <Text>警告: アクティブなテストの設定で、コード カバレッジが有効になっているため、テストの実行で配置の無効化は無視されます。</Text>
+      </RunInfo>
+    </RunInfos>
+    <ResultFiles>
+      <ResultFile path="KYOTA-PC\data.coverage" />
+    </ResultFiles>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalcurationTest" storage="d:\spikes\training\training1\training1tests\bin\debug\training1tests.dll" id="581c5356-29ed-b7d4-ef75-c8bb9147f637">
+      <Execution id="a797b6f0-e35c-4249-b716-ec02e3bfa7b8" />
+      <TestMethod codeBase="D:/Spikes/Training/Training1/Training1Tests/bin/Debug/Training1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Training1Tests.OperatorHelperTest, Training1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalcurationTest" />
+    </UnitTest>
+    <UnitTest name="GetAllOperatorsTest" storage="d:\spikes\training\training1\training1tests\bin\debug\training1tests.dll" id="e9b044af-67de-bd9e-efff-b1ba523a9300">
+      <Execution id="c1504368-096d-42e9-9a40-a3efcc4bd9ea" />
+      <TestMethod codeBase="D:/Spikes/Training/Training1/Training1Tests/bin/Debug/Training1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Training1Tests.OperatorHelperTest, Training1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllOperatorsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="一覧に存在しない結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="読み込まれたすべての結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e9b044af-67de-bd9e-efff-b1ba523a9300" executionId="c1504368-096d-42e9-9a40-a3efcc4bd9ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="581c5356-29ed-b7d4-ef75-c8bb9147f637" executionId="a797b6f0-e35c-4249-b716-ec02e3bfa7b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c1504368-096d-42e9-9a40-a3efcc4bd9ea" testId="e9b044af-67de-bd9e-efff-b1ba523a9300" testName="GetAllOperatorsTest" computerName="KYOTA-PC" duration="00:00:00.0901659" startTime="2013-02-21T12:10:21.8065502+09:00" endTime="2013-02-21T12:10:22.1695709+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1504368-096d-42e9-9a40-a3efcc4bd9ea">
+    </UnitTestResult>
+    <UnitTestResult executionId="a797b6f0-e35c-4249-b716-ec02e3bfa7b8" testId="581c5356-29ed-b7d4-ef75-c8bb9147f637" testName="CalcurationTest" computerName="KYOTA-PC" duration="00:00:00.0069856" startTime="2013-02-21T12:10:22.1755713+09:00" endTime="2013-02-21T12:10:22.1865719+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a797b6f0-e35c-4249-b716-ec02e3bfa7b8">
+    </UnitTestResult>
+  </Results>
+</TestRun>
